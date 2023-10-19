@@ -1,0 +1,61 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #38020c;
+}
+
+    body {
+      font-family: Arial, sans-serif;
+      /* background-color: #d36d78; */
+      
+    }
+    .container {
+      max-width: 500px;
+      /* margin-top: 12px; */
+      margin: 5rem auto;
+      
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      font-weight: bold;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .checkbox-group {
+      display: flex;
+      align-items: center;
+    }
+    .checkbox-group label {
+      margin-right: 10px;
+    }
+    .btn-container {
+      text-align: center;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button.reset {
+      background-color: #dc3545;
+    }
